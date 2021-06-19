@@ -4,6 +4,10 @@ CREATE TABLE trump_tweets (
 	retweets INT
 );
 
-SELECT * FROM trump_tweets;
+CREATE TABLE trump_quotes (
+	_c0 INT,
+	quote TEXT
+);
 
-DROP TABLE trump_tweets;
+SELECT * FROM trump_tweets;
+SELECT * FROM trump_quotes;
